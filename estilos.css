@@ -1,0 +1,106 @@
+*{
+margin: 0px;
+padding: 0px;
+}
+body{
+font-family: 'Oswald', sans-serif;
+}
+.contenedor{
+    width: 90%;
+    margin: 0 auto;
+}
+header{
+    background-color:#4c2882;
+    padding: 20px;
+}
+nav{
+    display: flex;
+}
+ header .contenedor{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+header nav a{
+    color: white;
+    text-decoration: none;
+    margin-right: 20px;
+    transition:0.7s;
+}
+header nav a:hover{
+    color:black;
+}
+li{
+    list-style: none;
+}
+.central{
+    background: url(cielo.jpg);
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover ;
+    height: 80vh;
+    display:flex;
+    justify-content: center;
+    align-items: center;
+}
+h1{
+    color:rgb(83, 17, 197);
+    text-align:center;
+    font-size: 60px;
+    font-family: 'Recursive';
+    font-weight: :700;
+}
+.central p{
+    color:white;
+    text-align:center;
+    font-size: 23px;
+    font-family: 'Recursive';
+}
+.contenedor1{
+    display: flex;
+
+}
+.card {
+    width: 100%;
+    background: white;
+    margin-bottom: 50px;
+    transition:0.3s;
+
+}
+.card-header{
+    padding:10px 5px;
+    text-align: center;
+    color: white;
+}
+.card-body{
+    padding:10px 5px;
+    text-align: center;
+    font-size: 18px;
+}
+.card-body .btn{
+    display: block;
+    color: white;
+    text-align: center;
+    background-color: #4c2882;
+    margin-top: 20px;
+    text-decoration: none;
+    padding: 10px 5px;
+}
+.card:hover{
+    transform: scale(1.05);
+}
+footer{
+    background-color: #4c2882;
+    color: white;
+    padding: 30px;
+}
+ul{
+    display:flex;
+    justify-content: center;
+    align-items: center;
+    gap:1rem;
+}
+footer p{
+    text-align: center;
+    margin-top: 20px;
+}
