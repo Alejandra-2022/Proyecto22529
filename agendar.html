@@ -1,0 +1,92 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <link rel="stylesheet" href="estilos.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Recursive:wght@300&display=swap" rel="stylesheet">
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Oswald:wght@200&display=swap" rel="stylesheet">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    
+    <body>
+        <header>
+            <div class="contenedor">
+                <h2 class="Logo">Sirianmart </h2>
+                <nav>
+                    <li><a href="">Talleres</a></li>
+                    <li><a href="">Sesiones</a></li>
+                    <li><a href="">Artículos</a></li>
+                    <li><a href="">Contacto</a></li>
+                </nav>        
+    
+            </div>
+        </header>
+        <section class="central">
+            <div class="contenido-central">
+                <h1>Astrología, Tarot, Mediumnidad, Talleres</h1>
+                
+                <p> Agenda tu sesion</p>
+            </div>
+        </section>
+    
+    <form name="agendar" data-netlify="true" action="" method="post">
+          <label>
+              Nombre
+              <input type="text" name="Nombre" maxlength="10" placeholder="Ingrese su nombre">
+          </label>
+  
+          <label>
+              Apellido
+              <input type="text" name="Apellido" maxlength="20" placeholder="Ingrese su apellido">
+          </label>
+  
+          <label>
+            Fecha de nacimiento
+            <input id="Fecha" type="date">
+        </label>
+  
+          <label>
+              email
+              <input id="Email" type="email" name="Email" required placeholder="mail_de_ejemplo@gmail.com">
+          </label>
+          <label for="Pais">Seleccione un Pais</label>
+          <select id="Pais" name="Pais">
+              <option value="Argentina">Argentina</option>
+              <option value="Brasil">Brasil</option>
+              <option value="Uruguay">Uruguay</option>
+              <option value="Bolivia">Bolivia</option>
+              <option value="Peru">Peru</option>
+              <option value="Chile">Chile</option>
+          </select>
+  
+          
+          <fieldset>
+              <legend>Me contacto por:</legend>
+              <label class="opciones margenes">
+                  Carta Natal
+                  <input  type="checkbox" name="Carta Natal" value="Carta">
+              </label>
+              <label class="opciones margenes">
+                  Revolución Solar
+                  <input  type="checkbox" name="Revolución" value="Revolución">
+              </label>
+              <label class="opciones margenes">
+                  Tiradas de Tarot
+                  <input  type="checkbox" name="Tiradas de Tarot" value="Tiradas">
+              </label>
+              <label class="opciones margenes">
+                Mediumnidad
+                <input  type="checkbox" name="Mediumnidad" value="Mediumnidad">
+                <p>Agregar comentarios:</p>
+                <textarea class="margenes" name="Comentario"  rows="10" cols="30"></textarea>
+            </label>
+          </fieldset>
+  
+          <input class="margenes" type="submit"value="Enviar" heigth="150px">
+          <input class="margenes" type="reset" value="Borrar formulario">
+      </form>
+      </body>
