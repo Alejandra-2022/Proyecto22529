@@ -57,19 +57,23 @@ li {
     align-items: center;
 }
 
-h1 {
+h1  {
     color: rgb(83, 17, 197);
     text-align: center;
-    font-size: 60px;
+    font-size: 4vw;
     font-family: 'Recursive';
     font-weight: 700;
     text-shadow: 1px 1px rgb(194, 194, 194);
+}
+h2{
+    font-size: 2vw;
+    font-weight: 700;
 }
 
 .central p {
     color: white;
     text-align: center;
-    font-size: 23px;
+    font-size: 2vw;
     font-family: 'Recursive';
 }
 
@@ -81,7 +85,7 @@ h1 {
 }
 
 .card {
-    width: 100%;
+    width: 90%;
     background: white;
     margin-bottom: 50px;
     transition: 0.3s;
@@ -111,6 +115,9 @@ h1 {
 
 .card:hover {
     transform: scale(1.05);
+}
+.card-header img {
+    width: 90%;
 }
 
 footer {
