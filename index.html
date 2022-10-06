@@ -3,6 +3,8 @@
 <head>
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    
+    
     <link rel="stylesheet" href="estilos.css">
     <link rel="preconnect" href="https://fonts.googleapis.com">
 <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
@@ -10,87 +12,101 @@
 <link rel="preconnect" href="https://fonts.googleapis.com">
 <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
 <link href="https://fonts.googleapis.com/css2?family=Oswald:wght@200&display=swap" rel="stylesheet">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+<link rel="icon" href="prueba2.jpg">   
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Sirianmart</title>
 </head>
 <body>
-  <header>
+    <header>
         <div class="contenedor">
             <h2 class="Logo">Sirianmart </h2>
             <nav>
-                <li><a href="">Talleres</a></li>
-                <li><a href="">Sesiones</a></li>
-                <li><a href="">Artículos</a></li>
-                <li><a href="">Contacto</a></li>
-            </nav>        
+              <li><a href="talleres.html">Talleres</a></li>
+              <li><a href="sesiones.html">Sesiones</a></li>
+              <li><a href="articulos.html">Artículos</a></li>
+              <li><a href="contacto.html">Contacto</a></li>
+              
+          </nav>      
 
         </div>
-  </header>
-      <section class="central">
+    </header>
+    
+    
+    
+    
+    
+    
+    <section class="central">
         <div class="contenido-central">
             <h1>Astrología, Tarot, Mediumnidad, Talleres</h1>
-            <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore.</p>
+            <p>Lorem ipsum dolor SIT amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore.</p>
             <p> Agenda tu sesion</p>
         </div>
-      </section>
-
+    </section>
     <section class="tarjetas">
-      <div class="contenedor1"> <!-- va a ser el flex container-->
-        <div class="card">     <!-- los card van a ser los flex items-->
-          <div class="card-header">
+        <div class="row">
+            <div class="column">
+              <div class="card">
+                <div class="card-header">
                   <img src="S2.jpg" alt="">
-          </div>
-          <div class="card-body">
-            <h3>Carta Natal</h3>
-            <p>Como estaban los planetas el dia </p>
-            <p>en el lugar de tu nacimiento? </p>
-            <p>Convenimos una reunion y hablamos en detalle</p>
-            <a href="#" class="btn">Agendar</a>
-          </div>
-        </div>          
-        <div class="card">
-          <div class="card-header">
-            <img src="S1.jpg" alt="">
-          </div>
-          <div class="card-body">
-            <h3>Revolucion Solar</h3>
-            <p>Armo tu Revolución Solar para que sepas</p>
-            <p> como va a ser tu año solar </p>
-            <p>Convenimos una reunion y hablamos en detalle</p>
-            <a href="#" class="btn">Agendar</a>
-          </div>
-        </div>
-        <div class="card">
-          <div class="card-header">
-            <img src="S2.jpg" alt="">
-          </div>
-          <div class="card-body">
-              <h3>Tiradas de Tarot</h3>
-              <p>Tu consulta con una tirada</p>
-              <p> Vemos cual es la mas conveniente</p>
-              <p> de acuerdo a tu inquietud</p>
-              <a href="#" class="btn">Agendar</a>
-          </div>
-        </div>
-        <div class="card">
-          <div class="card-header">
-            <img src="S1.jpg" alt="">
-         </div>
-          <div class="card-body">
-           <h3>Mediumnidad</h3>
-           <p>Solemos estar acompañados </p>
-           <p>por distintas energías </p>
-           <p>Sabes quienes son tus guias?</p>
-            <a href="#" class="btn">Agendar</a>
-          </div>
-        </div>
-      </div>   
+                </div>
+                <div class="card-body">
+                  <h3>Carta Natal</h3>
+                  <p>Como estaban los planetas el dia y en el lugar de tu nacimiento? </p>
+                  <p>Convenimos una reunion y te la explico en detalle</p>
+                  <a href="agendar.html" class="btn">Agendar</a>
+                </div>
+              </div>
+            </div>
+          
+            <div class="column">
+              <div class="card">
+                <div class="card-header">
+                  <img src="S1.jpg" alt="">
+                </div>
+                <div class="card-body">
+                  <h3>Revolucion Solar</h3>
+                  <p>Armo tu Revolución Solar para que sepas como va a ser tu año solar </p>
+                  <p>Convenimos una reunion y te la explico en detalle</p>
+                  <a href="agendar.html" class="btn">Agendar</a>
+                </div>
+              </div>
+            </div>
+            <div class="column">
+                <div class="card">
+                  <div class="card-header">
+                    <img src="S2.jpg" alt="">
+                  </div>
+                  <div class="card-body">
+                    <h3>Tiradas de Tarot</h3>
+                    <p>Tu consulta con una tirada</p>
+                    <p> Vemos cual es la mas conveniente de acuerdo a tu inquietud</p>
+                    <a href="agendar.html" class="btn">Agendar</a>
+                  </div>
+                  </div>
+              </div>
+            <div class="column">
+              <div class="card">
+                <div class="card-header">
+                  <img src="S2.jpg" alt="">
+                </div>
+                <div class="card-body">
+                  <h3>Mediumnidad</h3>
+                  <p>Solemos estar acompañados por distintas energías</p>
+                  <p> ¿Sabes quienes son tus guias?</p>
+                  <a href="agendar.html" class="btn">Agendar</a>
+                </div>
+              </div>
+             </div>
+
+         
     </section>
     <footer>
       <ul>
         <li>Contactame</li>
         <li>Acerca de mi</li>
       </ul>
+
       <p>Todos los derechos reservados</p>
 
     </footer>
