@@ -35,53 +35,64 @@
             </div>
         </section>
     
-        <form name="agendar" data-netlify="true" action="" method="post">
+           <form action="" method="GET">
+          <label>
+              Nombre
+              <input type="text" name="Nombre" maxlength="10" placeholder="Ingrese su nombre">
+          </label>
+  
+          <label>
+              Apellido
+              <input type="text" name="Apellido" maxlength="20" placeholder="Ingrese su apellido">
+          </label>
+  
+          <label>
+            Fecha de nacimiento
+            <input id="Fecha" type="date">
+        </label>
+  
+          <label>
+              email
+              <input id="Email" type="email" name="Email" required placeholder="mail_de_ejemplo@gmail.com">
+          </label>
+          <label for="Pais">Seleccione un Pais</label>
+          <select id="Pais" name="Pais">
+              <option value="Argentina">Argentina</option>
+              <option value="Brasil">Brasil</option>
+              <option value="Uruguay">Uruguay</option>
+              <option value="Bolivia">Bolivia</option>
+              <option value="Peru">Peru</option>
+              <option value="Chile">Chile</option>
+          </select>
+  
+          
+          <fieldset>
+              <legend>Me contacto por:</legend>
+              <label class="opciones margenes">
+                  Carta Natal
+                  <input  type="checkbox" name="Carta Natal" value="Carta">
+              </label>
+              <label class="opciones margenes">
+                  Revolución Solar
+                  <input  type="checkbox" name="Revolución" value="Revolución">
+              </label>
+              <label class="opciones margenes">
+                  Tiradas de Tarot
+                  <input  type="checkbox" name="Tiradas de Tarot" value="Tiradas">
+              </label>
+              <label class="opciones margenes">
+                Mediumnidad
+                <input  type="checkbox" name="Mediumnidad" value="Mediumnidad">
+                <p>Agregar comentarios:</p>
+                <p>Para carta natal y revolucion solar, por favor indica la hora y lugar de nacimeinto:</p>
 
-            <div class="datos-cliente">
-
-                <label>Nombre<input type="text" name="Nombre" maxlength="10" placeholder="Ingrese su nombre"></label>
-        
-                <label>Apellido<input type="text" name="Apellido" maxlength="20" placeholder="Ingrese su apellido"></label>
-        
-                <label>Fecha de nacimiento<input id="Fecha" type="date"></label>
-        
-                <label>email<input id="Email" type="email" name="Email" required placeholder="mail_de_ejemplo@gmail.com"></label>
-                
-                <label for="Pais">Seleccione un Pais</label>
-
-                <select id="Pais" name="Pais">
-                    <option value="Argentina">Argentina</option>
-                    <option value="Brasil">Brasil</option>
-                    <option value="Uruguay">Uruguay</option>
-                    <option value="Bolivia">Bolivia</option>
-                    <option value="Peru">Peru</option>
-                    <option value="Chile">Chile</option>
-                </select>
-            </div>
-                
-            <fieldset class="datos-formulario">
-
-                <legend>Me contacto por: </legend>
-
-                <label class="opciones margenes">Carta Natal<input  type="checkbox" name="Carta Natal" value="Carta"></label>
-
-                <label class="opciones margenes">Revolución Solar<input  type="checkbox" name="Revolución" value="Revolución"></label>
-                
-                <label class="opciones margenes">Tiradas de Tarot<input  type="checkbox" name="Tiradas de Tarot" value="Tiradas"></label>
-
-                <label class="opciones margenes">Mediumnidad<input  type="checkbox" name="Mediumnidad" value="Mediumnidad">
-                    <p>Agregar comentarios:</p>
-                    <p>Para Carta y Revolución, por favor escribí lugar y hora de nacimiento</p>
                 <textarea class="margenes" name="Comentario"  rows="10" cols="30"></textarea>
-                </label>
-
-                <input class="margenes" type="submit"value="Enviar" heigth="150px">
-                <input class="margenes" type="reset" value="Borrar formulario">
-
-            </fieldset>
-                
-        </form>
-
+            </label>
+          </fieldset>
+  
+          <input class="margenes" type="submit"value="Enviar" heigth="150px">
+          <input class="margenes" type="reset" value="Borrar formulario">
+      </form>
         <footer>
             <ul>
               <li><a href="acercadeltp.html">Acerca del TP</a></li>
